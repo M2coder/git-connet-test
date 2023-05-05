@@ -1,0 +1,17 @@
+server:
+  port: 9999
+
+spring:
+  datasource:
+    username: root
+    password: 111111
+    url: jdbc:mysql://localhost:3306/db3
+  data:
+    redis:
+      port: 6379
+      host: localhost
+
+logging:
+  level:
+    com.demo: debug
+
